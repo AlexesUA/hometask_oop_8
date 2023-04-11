@@ -13,14 +13,16 @@ public class Animal {
         this.tail = tail;
     }
 
-    public static Animal addedAnimal(String name, int age, boolean tail){
-        if(age<0){
-            System.out.println("Вік не може бути від'ємним.");
+    public static Animal addedAnimal(String name, int age, boolean tail) throws Exception {
+        try {
+            if(age<0) throw new Exception("Вік не може бути від'ємним.");
+        }catch (Exception error){
+            System.out.println(error.getMessage());
             return null;
         }
-        else{
-            return new Animal(name, age, tail);
-        }
+
+        return new Animal(name, age, tail);
+
     }
 
     @Override
