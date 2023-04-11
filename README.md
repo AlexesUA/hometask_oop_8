@@ -4,8 +4,9 @@ Home Task 8 Object class
 
 Завдання 2 
 
-Створити класи: 1) Основний клас Device (manufacturer(String), price(float), serialNumber(String)); 2) Сабклас Monitor (resolutionX(int), 
-resolutionY(int)) і EthernetAdapter (speed(int), mac(String)); Додати методи доступу. Конструктор.
+Створити класи: 1) Основний клас Device (manufacturer(String), price(float), serialNumber(String)); 
+2) Сабклас Monitor (resolutionX(int), resolutionY(int)) і EthernetAdapter (speed(int), mac(String)); 
+3) Додати методи доступу. Конструктор.
 
 Завдання 3 
 
