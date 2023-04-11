@@ -9,7 +9,7 @@ public class Device {
 
     private Device(){}
 
-    private Device(String manufacturer, String serialNumber, float price){
+    public Device(String manufacturer, String serialNumber, float price){
         this.manufacturer = manufacturer;
         this.serialNumber = serialNumber;
         this.price = price;
